@@ -19,6 +19,7 @@ pipeline {
                 bat 'dotnet test'
             }
         }
+    }
 
     post {
         always {
